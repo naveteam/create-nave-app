@@ -10,7 +10,7 @@ const run = async () => {
         shell.exit(1)
     }
 
-    shell.exec(`git clone git@github.com:naveteam/react-boilerplate ${appName}`)
+    shell.exec(`git clone https://github.com/naveteam/react-boilerplate.git ${appName}`)
     shell.cd(appName)
 
     shell.sed('-i', 'react-boilerplate', appName, 'package.json')
