@@ -1,6 +1,6 @@
 {
   "name": "create-nave-app",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.4",
+    "yargs": "^15.4.0"
   },
   "bin": {
     "create-nave-app": "index.js"
